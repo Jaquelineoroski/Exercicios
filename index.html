@@ -3,38 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de texto</title>
-    <style>
-    mark
-    { background-color:rgb(239, 92, 153) ;}
-
-    </style>
+    <title>Outras formatações</title>
 </head>
-<body>
-   <h1>Principais formatações</h1>
-   <h2>Negrito/destaque</h2> 
-   <p>Nessa frase <b>termo em negrito</b>usando a tag B não semantica</p>
-   <p>Nessa frase,<strong> tenho um termo em destaque </strong> usando a tag Strong</p>
-   <h2>Italico ou Enfase</h2>
-   <p>Nesta frase, temos um <i>termo em italico</i> usando a tag I (nao semantica)</p> nessa frase temos <em>um termo em enfase </em> usando a tag EM </P>
-   <h2>Texto marcado</h2>
-   <p>Podemos tambem criar um <mark texto usando a tag MARK
-    ></mark>
-    <P>No outro paragrafo, temos <mark>outro texto marcado no final.
+<h1>Outras formatações</h1>
+<h2>Codigos-fontes</h2>
+<p>O comando do documet.<code>getElementById</code> (teste) é escrito em lingagem JavaScrit.</p>
+<pre>
+    <code>
+        'num=in(input('Digite um número'))
+        if o número% 2 == 0:
+         print(f'o número{num}é par')
+         else:
+         print(f'o número{num}é impar')
+         print('fim do programa')
+    </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo meu: <q>computador é um burro muito rápido</q>.
     </p>
-    <h2>Texto grande e pequeno</h2>
-    <p>Estamos criando um 
-         e um <big>texto grande</big> e um <small>texto pequeno</small></p>
-         <h2>Texto deletado </h2>
-         <p>Podermos marcar um <del>texto como excluido </del>para indicar que ele deve ser lido, mas não considerado</p>
-         <h2>Texto inserido</h2>
-         <p>Podermos marcar <ins>um texto como inserido</ins> e indicar que ele foi adicionado depois.</p>
-         <p>Existe tbm o <u>sublinhado</u> U(Que e não semantica) </p>
-         <h2>Texto sobrescrito</h2>
-         <p>Para inserir coisas do tipo x <sup>20</sup>+3</p>
-         <h2>Texto subescrito</h2>
-         <p>Para inserir coisas como do tipo H<sub>2</sub>O
-        </p>
+    <h2>Citações completa</h2>
+    <p>Segundo Jeff Noble, no seu livro Html é para leigos
+        <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/I8xhVj9qTUQC?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">A diferença entre os elementos inline e um bloco de texto é importante. Os elementos Html neste capitulo</blockquote>
+        <h2>Abreviação</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language ">Html</abbr> e <abbr title="Cascading Style Sheets">css</abbr> Estou adorando!</p>
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar em Html</bdo></p>
 
+<body>
+    
 </body>
 </html>

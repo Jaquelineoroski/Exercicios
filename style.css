@@ -1,21 +1,32 @@
 *{
-    font=normal: 15px ariel
-
-
-header{
-    background-image:url(drive-download-20231001T160843Z-001/cpu-chip\(1\).png) ;
-    max-width: 100px;
-    margin: 10px;;
-    padding: 15px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-head> img{
+body{
+    background-color: darkgreen;
+    background-image:url(netflix-wallpaper.jpeg) ;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgba( 0,0,0,0.875);
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+header> imag{
     display: block;
     margin: auto;
+
 }
 main,section{
-    background-color: whitesmoke;
+    background-color: white;
     max-width: 700px;
-    margin: 200px;
-    padding: 15px;
+    margin: 150px;
+    padding: 5px;    
+}
+p{
+ text-align: justify;
+ line-height: 1,5em;
+ font-size: 1em;
 }

@@ -1,32 +1,42 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
-    background-color: darkgreen;
-    background-image:url(netflix-wallpaper.jpeg) ;
+    
+    }
+body {
+    background-color: cornflowerblue;
+    background-image:url("twitter-wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
 }
-header{
-    background-color: rgba( 0,0,0,0.875);
-    max-width: 700px;
-    margin: auto;
+main {
+    max-width: 600px;
+    background-color: white;
     padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.468);
+}
+picture {
+    display: block;
 }
 
-
-header> imag{
+picture img {
     display: block;
     margin: auto;
+}
+div.filme > video {
+    width: 100%;
+    border-radius: 10px;
+}
 
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
 }
-main,section{
-    background-color: white;
-    max-width: 700px;
-    margin: 150px;
-    padding: 5px;    
-}
-p{
- text-align: justify;
- line-height: 1,5em;
- font-size: 1em;
+
+h1 {
+    color: #33CCFF;
 }

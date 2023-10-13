@@ -1,31 +1,21 @@
-@charset "UFT8";
+*{
+    font=normal: 15px ariel
 
-body{
-    background-color:rgb(156, 245, 156) ;
-    font-family:Arial, Helvetica, sans-serif ;
-}
-h1{
-color: rgb(5, 125, 73);
+
+header{
+    background-image:url(drive-download-20231001T160843Z-001/cpu-chip\(1\).png) ;
+    max-width: 100px;
+    margin: 10px;;
+    padding: 15px;
 
 }
-h1#principal{
-    text-align: center;
-    color: white;
+head> img{
+    display: block;
+    margin: auto;
 }
-h2{
-color: rgb(5, 188, 130);
-}
-.basico{
-color: aqua;
-}
-
-.intermediario{
-color: gold;
-}
-
-.avançado{
-color: red;
-}
-.destaque{
-    background-color: darkmagenta;
+main,section{
+    background-color: whitesmoke;
+    max-width: 700px;
+    margin: 200px;
+    padding: 15px;
 }
